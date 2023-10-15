@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PassBase</title>
+    <link href="./dist/output.css" rel="stylesheet">
+    <link href="./style.css" rel="stylesheet">
+</head>
+<body class="bg-gradient-to-r from-black  to-purple-700">
+    <div class="container">
+        <h1 class="font-bold text-fuchsia-100 underline decoration-pink-600 text-2xl">Generate  Your <br> PASSWORD!</h1>
+       <div class="display">
+        <input type="text" id="password" placeholder="Password">
+          <img src="./copy.jpg" onclick="copyPassword()">
+        </div>
+    <button onclick="createPassword()" class="bg-pink-800 rounded-lg cursor-pointer p-4 text-white">Generate Password</button>
+    </div>
+<script src="./index.js"></script>
+</body>
+</html>
